@@ -120,33 +120,33 @@ public class ExchangeRate  {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("ExchangeRate [");
+		builder.append("Conversion de modeda {\n");
 		if (baseCode != null) {
-			builder.append("BaseCode=");
+			builder.append("Codigo base=");
 			builder.append(baseCode);
 			builder.append(", ");
 		}
 		if (targetCode != null) {
-			builder.append("targetCode=");
+			builder.append("Codigo objetivo=");
 			builder.append(targetCode);
-			builder.append(", ");
+			builder.append(", \n");
 		}
 		if (lastUpdate != null) {
-			builder.append("lastUpdate=");
+			builder.append("Ultima actualizacion=(");
 			builder.append(lastUpdate);
-			builder.append(", ");
+			builder.append("), \n");
 		}
-		builder.append("conversionRate=");
+		builder.append("Equivalencia de la moneda=");
 		builder.append(conversionRate);
-		builder.append(", ");
+		builder.append(", \n");
 		if (result != null) {
-			builder.append("result=");
+			builder.append("Estado de conversion=");
 			builder.append(result);
-			builder.append(", ");
+			builder.append(", \n");
 		}
-		builder.append("conversionResult=");
+		builder.append("Total=");
 		builder.append(conversionResult);
-		builder.append("]");
+		builder.append("}\n");
 		return builder.toString();
 	}
 
