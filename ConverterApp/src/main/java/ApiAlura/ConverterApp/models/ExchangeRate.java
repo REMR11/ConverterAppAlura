@@ -2,7 +2,7 @@ package ApiAlura.ConverterApp.models;
 
 import com.google.gson.annotations.SerializedName;
 
-public class ExchangeRate  {
+public class ExchangeRate {
 	@SerializedName("base_code")
 	private String baseCode;
 	@SerializedName("target_code")
@@ -15,17 +15,17 @@ public class ExchangeRate  {
 	private String result;
 	@SerializedName("conversion_result")
 	private double conversionResult;
-	
+
 	/**
-	 * Constructuro que crea una instancia de {@link ExchangeRateResponse} a partil 
+	 * Constructuro que crea una instancia de {@link ExchangeRateResponse} a partil
 	 * de un objeto {@link ExchangeRateResponseOmdb}.
 	 * 
-	 * @param pExchangeRateResponseOmdb objeto que contiene informacion sobre valores
-	 *        de cambio de monedas.
-	 * */
+	 * @param pExchangeRateResponseOmdb objeto que contiene informacion sobre
+	 *                                  valores de cambio de monedas.
+	 */
 	public ExchangeRate(ExchangeRateOmdb pExchangeRateOmdb) {
-		this.baseCode =  pExchangeRateOmdb.baseCode();
-		this.targetCode =  pExchangeRateOmdb.targetCode();
+		this.baseCode = pExchangeRateOmdb.baseCode();
+		this.targetCode = pExchangeRateOmdb.targetCode();
 		this.lastUpdate = pExchangeRateOmdb.timeLastUpdateUtc();
 		this.conversionRate = pExchangeRateOmdb.conversionRate();
 		this.result = pExchangeRateOmdb.result();
@@ -102,7 +102,6 @@ public class ExchangeRate  {
 		this.result = result;
 	}
 
-	
 	/**
 	 * @return the conversionResult
 	 */
@@ -150,5 +149,4 @@ public class ExchangeRate  {
 		return builder.toString();
 	}
 
-		
 }
