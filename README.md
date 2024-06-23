@@ -1,6 +1,8 @@
 **Conversor de Monedas - Alura Oracle One Challenge**
 =====================================================
 
+  <img src="Badge-Conversor.png" width="200" height="200" alt="Imagen de ejemplo">
+
 **Organización:** Alura Oracle One
 
 **Challenge:** Conversor de Monedas
