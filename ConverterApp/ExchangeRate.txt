@@ -1,0 +1,3 @@
+{"base_code":"USD","target_code":"VUV","time_last_update_utc":"Sun, 23 Jun 2024 00:00:01 +0000","conversion_rate":119.8226,"result":"success","conversion_result":547349.6368}
+{"base_code":"VUV","target_code":"USD","time_last_update_utc":"Sun, 23 Jun 2024 00:00:01 +0000","conversion_rate":0.008346,"result":"success","conversion_result":29.569878}
+{"base_code":"ZAR","target_code":"VUV","time_last_update_utc":"Sun, 23 Jun 2024 00:00:01 +0000","conversion_rate":6.63,"result":"success","conversion_result":8977.02}
